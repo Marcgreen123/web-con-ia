@@ -114,3 +114,37 @@ a {
 a:hover {
     color: #45c0f9;
 }
+
+/* Estilos para las redes sociales */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-media li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social-media li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.social-media li a:hover {
+    background-color: #007bff;
+}
+
+.social-media li a i {
+    font-size: 20px;
+}
